@@ -30,8 +30,8 @@ public class Calculadora {
 		
 		renda = salario - imposto;
 		
-		System.out.println("O imposto calculado foi de: " + Math.round(imposto));
-		System.out.println("A renda líquida é: " + Math.round(renda));
+		System.out.println("O imposto calculado (IRPF) foi de: "+ "R$ "+ Math.round(imposto));
+		System.out.println("A renda líquida é: " + "R$ "+Math.round(renda));
 	
 	}
 
